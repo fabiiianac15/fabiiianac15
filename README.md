@@ -92,6 +92,6 @@
 
 ###
 
-<p align="left">Soy Fabi pero aca soy glam, este es un espacio subir las cosas que hago</p>
+<p align="center">Soy Fabi pero aca soy glam, este es un espacio subir las cosas que hago</p>
 
 ###
