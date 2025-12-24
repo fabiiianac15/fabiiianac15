@@ -56,8 +56,6 @@
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=symfony" height="30" alt="symfony logo"  />
   <img width="12" />
-  <img src="https://skillicons.dev/icons?i=supabase" height="30" alt="supabase logo"  />
-  <img width="12" />
   <img src="https://skillicons.dev/icons?i=ts" height="30" alt="typescript logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=vim" height="30" alt="vim logo"  />
