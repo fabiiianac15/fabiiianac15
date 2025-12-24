@@ -2,10 +2,10 @@
 
 ###
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=fabiiianac15&show_icons=true&include_all_commits=true&count_private=true&theme=dracula" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fabiiianac15&layout=compact&langs_count=5&theme=dracula" height="150"/>
-</div>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fabiiianac15&show_icons=true&theme=dracula)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fabiiianac15&layout=compact&theme=dracula)
+
 
 
 ###
