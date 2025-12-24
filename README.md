@@ -2,12 +2,6 @@
 
 ###
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fabiiianac15&show_icons=true&theme=dracula)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fabiiianac15&layout=compact&theme=dracula)
-
 </div>
 
 
