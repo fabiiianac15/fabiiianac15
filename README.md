@@ -83,7 +83,7 @@ Systems Engineering student at UFPSO (Colombia), looking for a first professiona
 </tr>
 <tr>
 <td colspan="2">
-<a href="https://github.com/fabiiianac15/PapaYork"><img src="https://raw.githubusercontent.com/fabiiianac15/PapaYork/main/docs/media/menu.gif" width="372" alt="Menú animado de PapaYork con el logo y los botones de partida."> <img src="https://raw.githubusercontent.com/fabiiianac15/PapaYork/main/docs/media/mina.gif" width="372" alt="Pedro recorre con su espada un piso de la mina."></a>
+<img src="https://raw.githubusercontent.com/fabiiianac15/PapaYork/main/docs/media/menu.gif" width="372" alt="Menú animado de PapaYork con el logo y los botones de partida."> <img src="https://raw.githubusercontent.com/fabiiianac15/PapaYork/main/docs/media/mina.gif" width="372" alt="Pedro recorre con su espada un piso de la mina.">
 <h3>PapaYork: Legado Radioactivo</h3>
 <sub>VIDEOJUEGO · GDEVELOP 5 · EN DESARROLLO</sub>
 <p>Juego de granja en pixel art para la materia Desarrollo de Videojuegos. Pedro vuelve a la granja de su familia, cerca de una planta nuclear que explotó años atrás, y ahora algunas papas salen de la tierra con hambre. Se siembra y se cosecha por días, se habla con vecinos que tienen su propia rutina y se baja a una mina cuyos pisos se generan al azar.</p>
