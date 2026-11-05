@@ -15,14 +15,14 @@
 <details>
 <summary><b>Recruiter? Read this in English</b></summary>
 <br>
-Systems Engineering student at UFPSO (Colombia), looking for a first professional role. My thesis project, Capriva, is a goat-herd management platform (React, Symfony, Oracle, FastAPI, local AI) now being rolled out at the university's experimental farm. I also build Archito, a Rust and Tauri desktop companion for learning Arch Linux. My team PapaYork won second place in the Social Impact category at our site in the 2026 Latin American Innovation Rally. I am especially interested in cybersecurity and open to other areas: I am building AtomShield, a personal and fully simulated OT/ICS security lab, still under construction. Spanish: native. English: conversational.
+Systems Engineering student at UFPSO (Colombia), looking for a first professional role. My thesis project, Capriva, is a goat-herd management platform (React, Symfony, Oracle, FastAPI, local AI) now being rolled out at the university's experimental farm. I also build Archito, a Rust and Tauri desktop companion for learning Arch Linux. My team PapaYork won second place in the Social Impact category at our site in the 2026 Latin American Innovation Rally. I am especially interested in cybersecurity and open to other areas: I am building AtomShield, a personal and fully simulated OT/ICS security lab whose first testbed already runs in an isolated VM. I also made PapaYork, a pixel-art farming game in GDevelop 5. Spanish: native. English: conversational.
 </details>
 
 <img align="right" width="160" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTVjOW5oOGM1NGFsejR3bWdwMzd6M29zM25rcTllNTc0aHplajl4dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/R5dspTNJBVL51hiSN7/giphy.gif" alt="Pantalla antigua con el cursor parpadeando después de C:\>">
 
 <h2>Sobre mí</h2>
 
-<p>Estudio Ingeniería de Sistemas en la UFPSO desde 2022 y me gusta entender lo que hay detrás de cada proyecto. Cabras, buses universitarios, puertas con reconocimiento facial y Arch Linux: cada problema me ha obligado a aprender una tecnología nueva y a buscarle el mayor provecho.</p>
+<p>Estudio Ingeniería de Sistemas en la UFPSO desde 2022 y me gusta entender lo que hay detrás de cada proyecto. Cabras, papas mutantes, buses universitarios, puertas con reconocimiento facial y Arch Linux: cada problema me ha obligado a aprender una tecnología nueva y a buscarle el mayor provecho.</p>
 
 <p>Mi trabajo de grado ya está en proceso de implementación en la universidad. Tengo especial interés en la ciberseguridad, aunque no me cierro a un área, y por eso construyo AtomShield, un laboratorio simulado de seguridad industrial. Busco una primera experiencia profesional donde pueda aportar lo que ya sé y aprender de un equipo.</p>
 
@@ -61,12 +61,13 @@ Systems Engineering student at UFPSO (Colombia), looking for a first professiona
 </tr>
 <tr>
 <td colspan="2">
-<img src="assets/readme/atomshield.svg" width="100%" alt="AtomShield, laboratorio personal y simulado de ciberseguridad OT/ICS: red por zonas con monitoreo pasivo. Fase 5 en curso, laboratorio técnico aún sin desplegar.">
+<img src="assets/readme/atomshield.svg" width="100%" alt="AtomShield, laboratorio personal y simulado de ciberseguridad OT/ICS: red por zonas con monitoreo pasivo. Fase 5 en curso, con GRFICSv3 corriendo en una VM aislada.">
 <h3>AtomShield</h3>
 <sub>CIBERSEGURIDAD OT/ICS · EN CONSTRUCCIÓN · REPOSITORIO PRIVADO</sub>
 <p>Mi laboratorio personal para aprender a defender sistemas industriales. Quien lo usa trabaja como analista junior en una organización nuclear ficticia: recibe tickets, revisa evidencias, escala decisiones y entrega informes, con herramientas reales sobre una red aislada.</p>
-<p>La base documental ya existe: arquitectura de referencia por zonas, 7 procedimientos con sus plantillas, 12 casos de uso de detección y 13 escenarios defensivos. Ahora audito plataformas antes de ejecutar nada, y el laboratorio técnico se construye desde la Fase 6.</p>
-<p><code>OT/ICS</code> <code>Segmentación</code> <code>Detección</code> <code>Respuesta a incidentes</code> <code>Gestión de riesgos</code> <code>ISA/IEC 62443</code> <code>MITRE ATT&amp;CK</code> <code>NIST SP 800-82</code></p>
+<p>La base documental ya existe: arquitectura de referencia por zonas, 7 procedimientos con sus plantillas, 12 casos de uso de detección y 13 escenarios defensivos. El laboratorio también arrancó: GRFICSv3, que simula una planta química, corre reducido en una VM aislada con cinco contenedores. Al probarlo encontré que su red de administración permitía saltarse el router entre zonas, y la cerré.</p>
+<p>El equipo donde corre se borra al reiniciar, así que preparé una imagen base que se restaura en unos 6 minutos y scripts que comprueban el aislamiento antes de cada sesión.</p>
+<p><code>OT/ICS</code> <code>Segmentación</code> <code>Detección</code> <code>Respuesta a incidentes</code> <code>Gestión de riesgos</code> <code>ISA/IEC 62443</code> <code>MITRE ATT&amp;CK</code> <code>NIST SP 800-82</code> <code>GRFICSv3</code> <code>Docker</code> <code>VirtualBox</code> <code>Debian</code></p>
 <sub>Todo es simulado. No se conecta a ninguna instalación real y no equivale a una certificación, a formación nuclear ni a experiencia en una planta. Abriré el repositorio cuando el laboratorio tenga evidencias prácticas que mostrar.</sub>
 </td>
 </tr>
@@ -79,6 +80,17 @@ Systems Engineering student at UFPSO (Colombia), looking for a first professiona
 <a href="https://github.com/fabiiianac15/Archito/releases/download/appimage/Archito-x86_64.AppImage">Descargar AppImage</a> · <a href="https://github.com/fabiiianac15/Archito">Ver repositorio</a>
 </td>
 <td width="46%" align="center"><a href="https://github.com/fabiiianac15/Archito"><img src="https://raw.githubusercontent.com/fabiiianac15/Archito/master/assets/readme/archito-hola.svg" width="82%" alt="Archito, la mascota, baja colgada de un hilo y saluda."><br><img src="https://raw.githubusercontent.com/fabiiianac15/Archito/master/assets/readme/isla-chat.png" width="100%" alt="Chat de Archito con el uso de memoria y el comando real que hay detrás."></a></td>
+</tr>
+<tr>
+<td colspan="2">
+<a href="https://github.com/fabiiianac15/PapaYork"><img src="https://raw.githubusercontent.com/fabiiianac15/PapaYork/main/docs/media/menu.gif" width="49%" alt="Menú animado de PapaYork con el logo y los botones de partida."> <img src="https://raw.githubusercontent.com/fabiiianac15/PapaYork/main/docs/media/mina.gif" width="49%" alt="Pedro recorre con su espada un piso de la mina."></a>
+<h3>PapaYork: Legado Radioactivo</h3>
+<sub>VIDEOJUEGO · GDEVELOP 5 · EN DESARROLLO</sub>
+<p>Juego de granja en pixel art para la materia Desarrollo de Videojuegos. Pedro vuelve a la granja de su familia, cerca de una planta nuclear que explotó años atrás, y ahora algunas papas salen de la tierra con hambre. Se siembra y se cosecha por días, se habla con vecinos que tienen su propia rutina y se baja a una mina cuyos pisos se generan al azar.</p>
+<p>Lo hice solo, y el arte y la música también salieron de código: generadores en Python y JavaScript dibujan personajes y terreno, y un script sintetiza la música sin muestras externas. Los cambios grandes al proyecto son 29 scripts de Python que editan su JSON.</p>
+<p><code>GDevelop 5</code> <code>JavaScript</code> <code>Python</code> <code>Pixel art</code> <code>Generación procedural</code></p>
+<a href="https://github.com/fabiiianac15/PapaYork">Ver repositorio</a>
+</td>
 </tr>
 <tr>
 <td width="54%"><a href="https://github.com/fabiiianac15/AccessControl"><img src="https://raw.githubusercontent.com/fabiiianac15/AccessControl/master/docs/img/tablero.png" width="100%" alt="Tablero de Portero con los accesos concedidos y denegados del día."></a></td>
@@ -154,7 +166,7 @@ Systems Engineering student at UFPSO (Colombia), looking for a first professiona
 <h2>Trayectoria</h2>
 
 <table>
-<tr><td><b>Hoy</b></td><td>Capriva en implementación en la universidad, Archito en desarrollo activo y AtomShield en construcción.</td></tr>
+<tr><td><b>Hoy</b></td><td>Capriva en implementación en la universidad, Archito en desarrollo activo y AtomShield con su primera plataforma corriendo en una VM aislada.</td></tr>
 <tr><td><b>Oct 2026</b></td><td>Segundo lugar en Impacto Social con el equipo PapaYork, en el Rally Latinoamericano de Innovación (sede UIS).</td></tr>
 <tr><td><b>Mar 2026</b></td><td>Bootcamp Arquitectura en la Nube, nivel básico, 159 horas. Talento Tech, con MinTIC y ANDES.</td></tr>
 <tr><td><b>2023</b></td><td>Mis primeros repositorios en GitHub.</td></tr>
